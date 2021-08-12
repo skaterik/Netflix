@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5434195593.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Netflix</title>
+</head>
+
+<body>
+    <header>
+        <a href="" class="logo"><img src="images/logo.png" alt=""></a>
+        <ul class="navigation">
+            <li><a href="">Home</a></li>
+            <li><a href="">TV Shows</a></li>
+            <li><a href="">Movies</a></li>
+            <li><a href="">Latest</a></li>
+            <li><a href="">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Searchbox">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="images/bg.jpg" class="bg">
+        <div class="content">
+            <img src="images/name.png" class="MovieTitle">
+            <h4>
+                <span>2020</span>
+                <span>1h 55min</span>
+                <span>Action</span>
+            </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus qui molestiae exercitationem
+                reiciendis eaque sapiente nesciunt quasi, cum saepe sit praesentium incidunt. Dignissimos reiciendis
+                magnam sequi ipsam corporis molestiae laborum?</p>
+            <div class="buttons">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+            </div>
+        </div>
+        <a class="play" onclick="toggle();"><img src="images/play.png">Watch Now</a>
+    </div>
+
+    <div class="trailer">
+        <video src="images/mulan.MP4" controls="true"></video>
+        <img src="images/close.png" class="close" onclick="toggle();">
+    </div>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
